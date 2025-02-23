@@ -35,12 +35,12 @@ def fancy_chords(basic_chord):
 
 # basic metronome that follows bpm (currently only works with 4/4 time sig)
 # 240 = 60 * 4 - ie seconds per minute * quarter notes
-#def metro():
+#def ():
 #    #sig_multiplier = int(song_time_signature[-1])
-#    #metro_multiplier = sig_multiplier * 60
+#    #_multiplier = sig_multiplier * 60
 #
-#    threading.Timer(song_bpm/240, metro).start()
-#    if metro_on:
+#    threading.Timer(song_bpm/240, ).start()
+#    if _on:
 #        playsound("E:\Pycharm Projects\Click1.wav")
 
 
@@ -204,6 +204,6 @@ print(fancy_chords(v_chord_2))
 print(fancy_chords(v_chord_3))
 print(fancy_chords(v_chord_4))
 
-#Metronome Control
-metro_on = False
-metro()
+#nome Control
+#metro_on = False
+#metro()
