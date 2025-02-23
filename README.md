@@ -26,7 +26,10 @@ Fancier Chord Variations
 
 ## Executing program
 
-Run using the "Actions" tab
+1. Go to "Actions"
+2. Select "Chord Progression and Structure Generator .yml" workflow
+3. Under "Jobs", Rebuild if necessary, Open Build if not
+4. Click "Run a one-line script" to see output
 
 ## Authors
 
