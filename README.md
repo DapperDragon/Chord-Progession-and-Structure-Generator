@@ -1,6 +1,6 @@
 # Chord Progession and Structure Generator
 
-Writers block stopping got you down?
+Writers block got you down?
 now it can get you less down!
 
 Simply run this python program to get all sorts of suggestions including structure, key and chords!
