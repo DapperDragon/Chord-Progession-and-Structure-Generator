@@ -1,7 +1,7 @@
 # Press Shift+F10
 
 import random
-from playsound import playsound
+#from playsound import playsound
 import threading
 from itertools import groupby
 import math
@@ -35,13 +35,13 @@ def fancy_chords(basic_chord):
 
 # basic metronome that follows bpm (currently only works with 4/4 time sig)
 # 240 = 60 * 4 - ie seconds per minute * quarter notes
-def metro():
-    #sig_multiplier = int(song_time_signature[-1])
-    #metro_multiplier = sig_multiplier * 60
-
-    threading.Timer(song_bpm/240, metro).start()
-    if metro_on:
-        playsound("E:\Pycharm Projects\Click1.wav")
+#def metro():
+#    #sig_multiplier = int(song_time_signature[-1])
+#    #metro_multiplier = sig_multiplier * 60
+#
+#    threading.Timer(song_bpm/240, metro).start()
+#    if metro_on:
+#        playsound("E:\Pycharm Projects\Click1.wav")
 
 
 def time_sig():
